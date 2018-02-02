@@ -31,11 +31,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         if (message.easyCanvasDetected) {
             chrome.browserAction.setIcon({
                 tabId,
-                path: message.easyCanvasDetected === '1' ? 'icons/icon-active.png' : 'icons/icon.png',
+                path: 'icons/icon-active.png',
             });
             chrome.browserAction.setPopup({
                 tabId,
-                popup: message.easyCanvasDetected === '1' ? 'popups/enabled.html' : 'popups/not-found.html',
+                popup: 'popups/enabled.html',
             });
         }
         if (tabId in connections) {
