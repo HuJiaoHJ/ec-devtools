@@ -11,7 +11,7 @@ ec-devtools是支持canvas库 ( easycanvas , https://github.com/chenzhuo1992/eas
 ### chrome devtools 通信
 
 <p align="left">
-    <img width="600px" src="./screenshot/ec-devtools.png">
+    <img width="700px" src="./screenshot/ec-devtools.png">
 </p>
 
 * DevTools Page：开发者工具
