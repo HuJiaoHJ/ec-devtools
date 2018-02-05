@@ -19,6 +19,7 @@ ec-devtools是支持canvas库 ( easycanvas , https://github.com/chenzhuo1992/eas
 * Content Script：内容脚本
 
 #### 网页与内容脚本通信
+
 内容脚本（Content Script）是在网页的上下文中运行的js文件，可以通过获取DOM和DOM事件。
 
 网页不能直接与开发者工具（DevTools Page）进行通信，需要通过在内容脚本中监听网页事件，通过chrome.runtime API将消息传递到后台页面中，从而传递到开发者工具中。
@@ -169,4 +170,4 @@ chrome.tab.excuteScript(tabId, {
 });
 ```
 
-以上就是开发 **ec-devtools** chrome开发者工具所使用到的通信方式~
+以上就是开发 **ec-devtools** chrome开发者工具所使用到的通信方式，也基本覆盖 chrome 开发者工具的所有通信方式~
